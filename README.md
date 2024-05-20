@@ -1,6 +1,6 @@
 ### Programacao-Inteira
  
-Código referente ao primeiro trabalho para a Matéria de Programção Inteira 2024.1 na UFF.
+Código referente ao primeiro trabalho para a Matéria de Programção Inteira 2024.1 na UFF feito pelo aluno Thiago Lopes Nascimento.
 
 Para o trabalho foi pedido a execução de 3 instâncias de um problema de programção inteira, para isso foi utilizado o cplex como base para resolver o problema, portanto é necessário que ele já esteja baixado anteiormente no computador.
 O problema tem como uma função de minimização como objetivo além de necessitar de 3 restrições diferentes.
