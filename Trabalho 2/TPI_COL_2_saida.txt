@@ -1,0 +1,42 @@
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+Tried aggregator 1 time.
+MIP Presolve eliminated 808638 rows and 0 columns.
+MIP Presolve modified 14658 coefficients.
+Reduced MIP has 15041 rows, 16512 columns, and 400853 nonzeros.
+Reduced MIP has 16512 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 6.52 sec. (2145.46 ticks)
+Found incumbent of value 128.000000 after 6.74 sec. (2231.12 ticks)
+Probing fixed 2 vars, tightened 0 bounds.
+Probing time = 0.15 sec. (40.75 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 2 rows and 2 columns.
+Reduced MIP has 15039 rows, 16510 columns, and 400613 nonzeros.
+Reduced MIP has 16510 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.61 sec. (360.05 ticks)
+Probing time = 0.09 sec. (20.09 ticks)
+Clique table members: 39729.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 14.36 sec. (4623.55 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                          128.0000        2.0000            98.44%
+*     0+    0                           83.0000        2.0000            97.59%
+      0     0       42.0000  1184       83.0000       42.0000       14   49.40%
+*     0+    0                           68.0000       42.0000            38.24%
+*     0     0      integral     0       42.0000       42.0000    10804    0.00%
+Elapsed time = 53.04 sec. (16453.81 ticks, tree = 0.01 MB, solutions = 4)
+
+Root node processing (before b&c):
+  Real time             =   53.04 sec. (16454.68 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =   53.04 sec. (16454.68 ticks)
+Min=42

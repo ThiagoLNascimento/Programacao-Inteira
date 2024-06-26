@@ -1,0 +1,16 @@
+O método utilizado para o cálculo do tempo de execução das instâncias foi realizado por meio do seguinte código:
+
+    start = clock();
+        Execução do código em si
+    tempo_final = ((double)clock() - (double)start) / CLOCKS_PER_SEC;
+
+O tempo cálculado por meio dessa função é feito baseando-se no número de clocks que foram executados.
+
+Instância 0 sem cortes = 14.6264
+Instância 0 com cortes = 
+
+Instância 1 sem cortes = 308.692
+Instância 1 com cortes = 
+
+Instância 2 sem cortes = 6542.29
+Instância 2 com cortes = 
